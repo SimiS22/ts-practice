@@ -4,7 +4,10 @@
   "description": "typescript practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "rm -rf build && tsc --watch",
+    "start": "node build/index.js",
+    "watch": "nodemon --quiet build/index.js",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,10 @@
   "homepage": "https://github.com/SimiS22/ts-practice#readme",
   "dependencies": {
     "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3"
   }
 }
