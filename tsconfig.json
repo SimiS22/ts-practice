@@ -23,5 +23,6 @@
         "noImplicitThis": true,
         "strictPropertyInitialization": true,
         "skipLibCheck": true,
+        "downlevelIteration": true
     }
 }
