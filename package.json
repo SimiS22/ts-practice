@@ -21,7 +21,7 @@
   "homepage": "https://github.com/SimiS22/ts-practice#readme",
   "dependencies": {
     "@types/node-fetch": "^2.5.7",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
